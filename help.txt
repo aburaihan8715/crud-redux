@@ -1,0 +1,7 @@
+
+- Asynchronous operation
+ref-https://www.youtube.com/watch?v=wx1v2F2XFb4
+ref-https://www.youtube.com/watch?v=I2aM7YcOXDY&list=PLC3y8-rFHvwiaOAuTtVXittwybYIorRB3&index=30
+
+- CRUD operation
+ref-https://www.youtube.com/watch?v=DOkSU3yg4vQ
