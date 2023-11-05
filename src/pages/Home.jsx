@@ -1,7 +1,7 @@
 import UserList from "../components/UserList";
 
-const Users = () => {
+const Home = () => {
   return <UserList />;
 };
 
-export default Users;
+export default Home;

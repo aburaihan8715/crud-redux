@@ -1,9 +1,10 @@
 import { createBrowserRouter } from "react-router-dom";
 import AppLayout from "../layouts/AppLayout";
 import Error from "../pages/Error";
-import Users from "../pages/Users";
 import AddUsers from "../pages/AddUsers";
 import UpdateUsers from "../pages/UpdateUsers";
+import Home from "../pages/Home";
+import Post from "../pages/Post";
 
 export const router = createBrowserRouter([
   {
@@ -12,7 +13,7 @@ export const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Users />,
+        element: <Home />,
       },
       {
         path: "/create-user",
@@ -21,6 +22,10 @@ export const router = createBrowserRouter([
       {
         path: "/update-user/:id",
         element: <UpdateUsers />,
+      },
+      {
+        path: "/post",
+        element: <Post />,
       },
     ],
   },

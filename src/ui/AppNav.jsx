@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const AppNav = () => {
   return (
@@ -8,6 +8,16 @@ const AppNav = () => {
           ReduxCrud
         </button>
       </Link>
+      <ul className="flex items-center">
+        <li>
+          <NavLink
+            className="inline-block rounded-md bg-emerald-700 px-4 py-3 uppercase"
+            to={`/post`}
+          >
+            post
+          </NavLink>
+        </li>
+      </ul>
       <Link to="/create-user">
         <button className="rounded bg-emerald-700 px-6 py-3 uppercase">
           add user

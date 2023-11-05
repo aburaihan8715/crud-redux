@@ -1,2 +1,9 @@
 //  pending task
+- deploy somewhere
+- use local storage
+
+
+
+// task completed
+- CRUD operation done
 - handle asynchronous action
